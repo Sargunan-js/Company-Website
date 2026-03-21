@@ -22,14 +22,14 @@ const contactInfo = [
   {
     icon: MapPin,
     title: "Office Address",
-    content: "123 Tech Park, Silicon Valley\nSan Francisco, CA 94102, USA",
+    content: "Krishnapuram colony , Madurai, India",
     link: "https://maps.google.com",
   },
   {
     icon: Phone,
     title: "Phone Number",
-    content: "+1 (234) 567-890",
-    link: "tel:+1234567890",
+    content: "+91 9976422558 ",
+    link: "WA :+91 9976422558",
   },
   {
     icon: Mail,
@@ -248,8 +248,8 @@ export default function ContactPage() {
                   <div className="text-center">
                     <MapPin className="h-12 w-12 text-primary/30 mx-auto" />
                     <p className="mt-2 text-sm text-muted-foreground">
-                      123 Tech Park, Silicon Valley<br />
-                      San Francisco, CA 94102
+                      Krishnapuram colony <br />
+                      Madurai, India
                     </p>
                   </div>
                 </div>
