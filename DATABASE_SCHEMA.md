@@ -2,7 +2,7 @@
 
 ## Overview
 
-This document describes the complete database schema for the Quantix Lab website built with Supabase and Next.js.
+This document describes the complete database schema for the Asrivo Tech website built with Supabase and Next.js.
 
 ## Tables
 

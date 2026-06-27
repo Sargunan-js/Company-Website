@@ -42,8 +42,8 @@ In Supabase Dashboard, go to **Table Editor** and verify you see:
 
 ### Step 3: Verify Settings Data
 In **Table Editor**, click **settings** and you should see default company settings:
-- company_name: "Quantix Lab"
-- company_email: "info@quantixlab.com"
+- company_name: "Asrivo Tech"
+- company_email: "info@asrivotech.com"
 - etc.
 
 ---

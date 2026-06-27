@@ -10,12 +10,15 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Quantix Lab - Engineering Digital Innovation',
+  title: 'Asrivo Tech - Engineering Digital Innovation',
   description: 'We build scalable software solutions for modern businesses. Custom software development, web & mobile apps, cloud solutions, AI & automation, and enterprise IT consulting.',
   keywords: ['software development', 'web development', 'mobile apps', 'cloud solutions', 'AI', 'automation', 'IT consulting'],
-  authors: [{ name: 'Quantix Lab' }],
+  authors: [{ name: 'Asrivo Tech' }],
+  icons: {
+    icon: '/asrivo.png',
+  },
   openGraph: {
-    title: 'Quantix Lab - Engineering Digital Innovation',
+    title: 'Asrivo Tech - Engineering Digital Innovation',
     description: 'We build scalable software solutions for modern businesses.',
     type: 'website',
   },

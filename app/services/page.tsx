@@ -23,7 +23,7 @@ import {
 } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Services - Quantix Lab",
+  title: "Services - Asrivo Tech",
   description: "Explore our comprehensive technology services including software development, web & mobile apps, cloud solutions, AI & automation, and IT consulting.",
 }
 

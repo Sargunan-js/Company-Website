@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button"
 import { ArrowRight, ExternalLink } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Projects - Quantix Lab",
+  title: "Projects - Asrivo Tech",
   description: "Explore our portfolio of successful projects across various industries. See how we've helped businesses transform through technology.",
 }
 

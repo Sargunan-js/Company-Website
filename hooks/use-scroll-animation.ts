@@ -96,7 +96,7 @@ export function useMousePosition() {
 
 export function useTilt(intensity = 10) {
   const ref = useRef<HTMLDivElement>(null)
-  const [transform, setTransform] = useState("")
+  const [transform, setTransform] = useState("none")
 
   useEffect(() => {
     const element = ref.current

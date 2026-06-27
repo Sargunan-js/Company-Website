@@ -40,7 +40,7 @@ export default function PrivacyPage() {
             {[
               {
                 title: '1. Introduction',
-                content: 'Quantix Labs ("we", "our", or "us") operates the quantix-labs.com website (the "Service"). This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data.',
+                content: 'Asrivo Tech ("we", "our", or "us") operates the asrivotech.com website (the "Service"). This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data.',
               },
               {
                 title: '2. Information Collection and Use',
@@ -58,7 +58,7 @@ export default function PrivacyPage() {
               },
               {
                 title: '3. Use of Data',
-                content: 'Quantix Labs uses the collected data for various purposes:',
+                content: 'Asrivo Tech uses the collected data for various purposes:',
                 subsections: [
                   {
                     items: [
@@ -87,8 +87,8 @@ export default function PrivacyPage() {
                 subsections: [
                   {
                     items: [
-                      'Email: privacy@quantixlab.com',
-                      'Website: www.quantix-labs.com',
+                      'Email: privacy@asrivotech.com',
+                      'Website: www.asrivotech.com',
                     ],
                   },
                 ],

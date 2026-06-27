@@ -27,9 +27,9 @@ const navigation = {
 }
 
 const social = [
-  { name: "LinkedIn", href: "https://linkedin.com/company/quantixlab", icon: Linkedin },
-  { name: "GitHub", href: "https://github.com/quantixlab", icon: Github },
-  { name: "Email", href: "mailto:quantixlabs123@gmail.com", icon: Mail },
+  { name: "LinkedIn", href: "https://linkedin.com/company/asrivotech", icon: Linkedin },
+  { name: "GitHub", href: "https://github.com/asrivotech", icon: Github },
+  { name: "Email", href: "mailto:info.asrivotech@gmail.com", icon: Mail },
 ]
 
 export function Footer() {
@@ -43,13 +43,13 @@ export function Footer() {
             <div className="lg:col-span-1">
               <Link href="/" className="flex items-center gap-3 group">
                 <img 
-                  src="/Quantix Labs.svg" 
-                  alt="Quantix Labs Logo" 
-                  className="shrink-0 h-10 w-10 transition-transform group-hover:scale-110"
+                  src="/asrivo.png" 
+                  alt="Asrivo Tech Logo" 
+                  className="shrink-0 h-16 w-16 transition-transform group-hover:scale-110"
                 />
                 
                 <span className="text-xl sm:text-2xl font-semibold tracking-tight">
-                  Quantix<span className="font-light">Labs</span>
+                  Asrivo<span className="font-light">Tech</span>
                 </span>
               </Link>
               
@@ -119,8 +119,8 @@ export function Footer() {
                 </li>
                 <li className="flex items-center gap-3">
                   <Mail className="h-5 w-5 text-[#00AEEF] shrink-0" />
-                  <a href="mailto:info@quantixlab.com" className="text-sm text-zinc-400 hover:text-[#00AEEF]">
-                    infoquantixlab@gmail.com
+                  <a href="mailto:info@asrivotech.com" className="text-sm text-zinc-400 hover:text-[#00AEEF]">
+                    info.asrivotech@gmail.com
                   </a>
                 </li>
               </ul>
@@ -130,8 +130,8 @@ export function Footer() {
           {/* Bottom Bar */}
           <div className="mt-12 border-t border-white/10 pt-8">
             <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
-              <p className="text-sm text-zinc-500">
-                &copy; {new Date().getFullYear()} Quantix Labs. All rights reserved.
+              <p className="text-sm text-zinc-500" suppressHydrationWarning>
+                &copy; {new Date().getFullYear()} Asrivo Tech. All rights reserved.
               </p>
               <div className="flex gap-6">
                 <Link href="/privacy" className="text-sm text-zinc-500 hover:text-[#00AEEF]">

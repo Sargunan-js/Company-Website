@@ -9,34 +9,34 @@ const teamMembers = [
  {
     name: "Aswin K A",
     role: "Management Head & HR Manager",
-    image: "/team/sarah.jpg",
+    image: "/team/aswin.jpg",
     bio: "Founder managing HR, administration, finance, and operations with strategic leadership and precision",
-    linkedin: "https:www.linkedin.com/in/aswin-k-a-77581a249",
+    linkedin: "https://www.linkedin.com/in/aswin-k-a-77581a249",
     github: "https://github.com/Aswin4532003",
     email: "aswin453ka@gmail.com",
   },
   {
-    name: "Siranjeevi B.U ",
-    role: "Head- Digital marketing (SEO,SMO) & HR Executive ",
-    image: "/team/michael.jpg",
+    name: "Siranjeevi B.U",
+    role: "Head - Digital Marketing (SEO, SMO) & HR Executive",
+    image: "/team/siranjeevi.jpg",
     bio: "Leading brand growth through expert SEO, SMO strategies, and organizational excellence in talent and HR management.",
     linkedin: "https://www.linkedin.com/in/siranjeevi-bu/",
     github: "https://github.com/siranjj",
-    email: "michael@quantixlab.com",
+    email: "siranjeevi@asrivotech.com",
   },
   {
     name: "Pradeep Kumar M",
-    role: "legal & compliance officer",
-    image: "/team/emily.jpg",
+    role: "Legal & Compliance Officer",
+    image: "/team/pradeep.jpg",
     bio: "Ensuring regulatory compliance, managing legal risks, protecting company integrity and ethical standards.",
-    linkedin: "https://linkedin.com/in/emilyrodriguez",
+    linkedin: "https://www.linkedin.com/in/pradeep-kumar-m/",
     github: "https://github.com/Selvipr",
-    email: "emily@quantixlab.com",
+    email: "pradeep@asrivotech.com",
   },
   {
     name: "Sargunan J.S",
-    role: " Cheif Operation Officer",
-    image: "/team/david.jpg",
+    role: "Chief Operating Officer",
+    image: "/team/sargunan.jpg",
     bio: "Strategic operations leader driving efficiency, growth, performance, and scalable business transformation globally.",
     linkedin: "https://www.linkedin.com/in/sargunan-j-s-28915b2a9/",
     github: "https://github.com/Sargunan-js",
@@ -49,14 +49,23 @@ const teamMembers = [
     bio: "Creating intuitive user experiences",
     linkedin: "https://www.linkedin.com/in/hariharan-t-g-51013a284/",
     github: "https://github.com/21Hari",
-    email: "david@quantixlab.com",
+    email: "hariharan@asrivotech.com",
+  },
+  {
+    name: "Krishan Kumar B.K",
+    role: "Project Manager",
+    image: "/team/krishan.jpg",
+    bio: "Frontend Developer & Project Manager driving seamless delivery and team coordination.",
+    linkedin: "https://www.linkedin.com/in/krishan-kumar-b-k/",
+    github: "https://github.com/krishankumar",
+    email: "krishan@asrivotech.com",
   },
 ]
 function TeamMemberCard({ member, index }: { member: typeof teamMembers[0]; index: number }) {
   const { ref: tiltRef, transform } = useTilt(6)
   const { ref: scrollRef, isVisible } = useScrollAnimation(0.1)
 
-  const initials = member.name.split(' ').map(n => n[0]).join('')
+  const initials = member.name.split(' ').map(n => n[0]).join('').toUpperCase().slice(0, 4)
 
   return (
     <div
@@ -157,7 +166,7 @@ export function TeamPreview() {
           </p>
         </div>
 
-        <div className="mt-16 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-16 grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">
           {teamMembers.map((member, index) => (
             <TeamMemberCard key={member.name} member={member} index={index} />
           ))}

@@ -5,7 +5,7 @@ import { useScrollAnimation } from "@/hooks/use-scroll-animation"
 
 const testimonials = [
   {
-    content: "Quantix Lab transformed our outdated systems into a modern, efficient platform. Their team's expertise and dedication exceeded our expectations.",
+    content: "Asrivo Tech transformed our outdated systems into a modern, efficient platform. Their team's expertise and dedication exceeded our expectations.",
     author: "Jennifer Walsh",
     role: "CTO, TechCorp Industries",
     company: "TechCorp Industries",
@@ -19,7 +19,7 @@ const testimonials = [
     rating: 5,
   },
   {
-    content: "Working with Quantix Lab was a game-changer. They delivered our e-commerce platform on time and the results speak for themselves.",
+    content: "Working with Asrivo Tech was a game-changer. They delivered our e-commerce platform on time and the results speak for themselves.",
     author: "Amanda Foster",
     role: "Founder, ShopEase",
     company: "ShopEase",

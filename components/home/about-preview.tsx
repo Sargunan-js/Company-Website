@@ -102,9 +102,9 @@ export function AboutPreview() {
   const { ref: titleRef, isVisible: titleVisible } = useScrollAnimation()
 
   const highlights = [
-  { icon: Briefcase, value: "5+", label: "Projects Delivered", description: "Innovative digital solutions successfully deployed." },
-  { icon: Users, value: "8+", label: "Clients", description: "Businesses worldwide rely on our expertise." },
-  { icon: Globe, value: "30+", label: "Industries Served", description: "Technology solutions across diverse sectors." }, 
+  { icon: Briefcase, value: "6+", label: "Core Services", description: "Comprehensive technology solutions for modern businesses." },
+  { icon: Users, value: "24/7", label: "Support Availability", description: "Continuous assistance for seamless operations." },
+  { icon: Globe, value: "10+", label: "Technology Stack", description: "Modern tools and frameworks powering solutions." }, 
   { icon: ShieldCheckIcon, value: "99%", label: "System Reliability", description: "Stable infrastructure powering every service." }
   ]
 
@@ -158,7 +158,7 @@ export function AboutPreview() {
             </h2>
 
             <p className="mt-8 text-lg leading-8 text-slate-600">
-              Quantix Lab isn't just a dev shop. We are a **Digital Product Studio** where 
+              Asrivo Tech isn't just a dev shop. We are a **Digital Product Studio** where 
               performance meets aesthetics. We take the "impossible" ideas and build them into 
               lightning-fast, secure, and beautiful realities.
             </p>

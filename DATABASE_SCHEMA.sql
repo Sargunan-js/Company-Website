@@ -1,4 +1,4 @@
--- Quantix Lab Website - Complete Database Schema
+-- Asrivo Tech Website - Complete Database Schema
 -- Created for Supabase
 
 -- ============================================
@@ -367,19 +367,19 @@ CREATE POLICY "Enable read for authenticated users" ON audit_logs
 -- ============================================
 
 INSERT INTO settings (key, value, description, type) VALUES
-  ('company_name', 'Quantix Lab', 'Company name', 'text'),
-  ('company_email', 'info@quantixlab.com', 'Main company email', 'email'),
+  ('company_name', 'Asrivo Tech', 'Company name', 'text'),
+  ('company_email', 'info@asrivotech.com', 'Main company email', 'email'),
   ('company_phone', '+1 (555) 123-4567', 'Main company phone', 'text'),
-  ('company_website', 'https://quantixlab.com', 'Company website URL', 'url'),
-  ('linkedin_url', 'https://linkedin.com/company/quantixlab', 'LinkedIn profile', 'url'),
-  ('github_url', 'https://github.com/quantixlab', 'GitHub profile', 'url'),
-  ('twitter_url', 'https://twitter.com/quantixlab', 'Twitter profile', 'url'),
+  ('company_website', 'https://asrivotech.com', 'Company website URL', 'url'),
+  ('linkedin_url', 'https://linkedin.com/company/asrivotech', 'LinkedIn profile', 'url'),
+  ('github_url', 'https://github.com/asrivotech', 'GitHub profile', 'url'),
+  ('twitter_url', 'https://twitter.com/asrivotech', 'Twitter profile', 'url'),
   ('office_address', 'Your Office Address', 'Physical office address', 'text'),
   ('office_city', 'City Name', 'Office city', 'text'),
   ('office_country', 'Country Name', 'Office country', 'text'),
   ('timezone', 'UTC', 'Company timezone', 'text'),
-  ('support_email', 'support@quantixlab.com', 'Support email address', 'email'),
-  ('careers_email', 'careers@quantixlab.com', 'Careers email address', 'email'),
+  ('support_email', 'support@asrivotech.com', 'Support email address', 'email'),
+  ('careers_email', 'careers@asrivotech.com', 'Careers email address', 'email'),
   ('newsletter_enabled', 'true', 'Enable newsletter feature', 'boolean'),
   ('contact_form_enabled', 'true', 'Enable contact form', 'boolean'),
   ('service_inquiry_enabled', 'true', 'Enable service inquiry form', 'boolean')

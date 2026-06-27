@@ -44,31 +44,31 @@ export default function TermsPage() {
               },
               {
                 title: '2. License to Use Website',
-                content: 'Quantix Labs grants you a limited, non-exclusive, revocable license to make personal use of this website. You may not systematically retrieve data or information from this website to create or compile, directly or indirectly, a collection, compilation, database, or directory without written permission from Quantix Labs.',
+                content: 'Asrivo Tech grants you a limited, non-exclusive, revocable license to make personal use of this website. You may not systematically retrieve data or information from this website to create or compile, directly or indirectly, a collection, compilation, database, or directory without written permission from Asrivo Tech.',
               },
               {
                 title: '3. Disclaimer of Warranties',
-                content: 'This website and the materials contained herein are provided on an "as is" basis. Quantix Labs makes no warranties, expressed or implied, including but not limited to, warranties of merchantability and fitness for a particular purpose. Quantix Labs does not warrant that the functions contained in the materials will be uninterrupted or error-free, that defects will be corrected, or that this website or the server that makes it available are free of viruses or other harmful components.',
+                content: 'This website and the materials contained herein are provided on an "as is" basis. Asrivo Tech makes no warranties, expressed or implied, including but not limited to, warranties of merchantability and fitness for a particular purpose. Asrivo Tech does not warrant that the functions contained in the materials will be uninterrupted or error-free, that defects will be corrected, or that this website or the server that makes it available are free of viruses or other harmful components.',
               },
               {
                 title: '4. Limitation of Liability',
-                content: 'In no event shall Quantix Labs, its suppliers, or any contributors be liable for any damages (including, without limitation, lost profits, lost data, or business interruption) arising out of the use or inability to use the materials on Quantix Labs\'s website, even if we or our authorized representative has been notified orally or in writing of the possibility of such damage.',
+                content: 'In no event shall Asrivo Tech, its suppliers, or any contributors be liable for any damages (including, without limitation, lost profits, lost data, or business interruption) arising out of the use or inability to use the materials on Asrivo Tech\'s website, even if we or our authorized representative has been notified orally or in writing of the possibility of such damage.',
               },
               {
                 title: '5. Accuracy of Materials',
-                content: 'The materials appearing on Quantix Labs\'s website could include technical, typographical, or photographic errors. Quantix Labs does not warrant that any of the materials on its website are accurate, complete, or current. We may make changes to the materials contained on our website at any time without notice.',
+                content: 'The materials appearing on Asrivo Tech\'s website could include technical, typographical, or photographic errors. Asrivo Tech does not warrant that any of the materials on its website are accurate, complete, or current. We may make changes to the materials contained on our website at any time without notice.',
               },
               {
                 title: '6. Links',
-                content: 'Quantix Labs has not reviewed all of the sites linked to its website and is not responsible for the contents of any such linked site. The inclusion of any link does not imply endorsement by Quantix Labs of the site. We recommend that you make your own independent investigation before using any third-party services.',
+                content: 'Asrivo Tech has not reviewed all of the sites linked to its website and is not responsible for the contents of any such linked site. The inclusion of any link does not imply endorsement by Asrivo Tech of the site. We recommend that you make your own independent investigation before using any third-party services.',
               },
               {
                 title: '7. Modifications',
-                content: 'Quantix Labs may revise these terms of service at any time without notice. By using this website, you are agreeing to be bound by the then current version of these terms of service.',
+                content: 'Asrivo Tech may revise these terms of service at any time without notice. By using this website, you are agreeing to be bound by the then current version of these terms of service.',
               },
               {
                 title: '8. Governing Law',
-                content: 'These terms and conditions are governed by and construed in accordance with the laws of the jurisdiction in which Quantix Labs operates, and you irrevocably submit to the exclusive jurisdiction of the courts in that location.',
+                content: 'These terms and conditions are governed by and construed in accordance with the laws of the jurisdiction in which Asrivo Tech operates, and you irrevocably submit to the exclusive jurisdiction of the courts in that location.',
               },
               {
                 title: '9. Prohibited Activities',
@@ -93,8 +93,8 @@ export default function TermsPage() {
                 subsections: [
                   {
                     items: [
-                      'Email: legal@quantixlab.com',
-                      'Website: www.quantix-labs.com',
+                      'Email: legal@asrivotech.com',
+                      'Website: www.asrivotech.com',
                     ],
                   },
                 ],

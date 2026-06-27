@@ -1,8 +1,9 @@
-"use client"
+"use client" 
 
 import React from "react"
 
 import { useState } from "react"
+import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
@@ -22,31 +23,32 @@ const contactInfo = [
   {
     icon: MapPin,
     title: "Office Address",
-    content: "123 Tech Park, Silicon Valley\nSan Francisco, CA 94102, USA",
-    link: "https://maps.google.com",
+    content: "Asrivo - Tech Park\n Madurai - 625002\n TamilNadu , India",
+    link: "https://www.google.com/maps/dir/9.949141,78.12767/9.9491417,78.1276668/@9.9491456,78.1270113,19z/data=!3m1!4b1!4m6!4m5!1m1!4e1!1m1!4e1!3e9?entry=ttu&g_ep=EgoyMDI2MDUxMS4wIKXMDSoASAFQAw%3D%3D",
+    
   },
   {
     icon: Phone,
     title: "Phone Number",
-    content: "+1 (234) 567-890",
-    link: "tel:+1234567890",
+    content: "+91 8122575337",
+    link: "tel:+918122575337",
   },
   {
     icon: Mail,
     title: "Email Address",
-    content: "info@quantixlab.com",
-    link: "mailto:info@quantixlab.com",
+    content: "info@asrivotech.com",
+    link: "mailto:info@asrivotech.com",
   },
   {
     icon: Clock,
     title: "Business Hours",
-    content: "Monday - Friday\n9:00 AM - 6:00 PM PST",
+    content: "Monday - Saturday \n9:00 AM - 6:00 PM IST",
   },
 ]
 
 const social = [
-  { name: "LinkedIn", href: "https://linkedin.com/company/quantixlab", icon: Linkedin },
-  { name: "GitHub", href: "https://github.com/quantixlab", icon: Github },
+  { name: "LinkedIn", href: "https://linkedin.com/company/asrivotech", icon: Linkedin },
+  { name: "GitHub", href: "https://github.com/asrivotech", icon: Github },
 ]
 
 export default function ContactPage() {
@@ -280,8 +282,9 @@ export default function ContactPage() {
                   <div className="text-center">
                     <MapPin className="h-12 w-12 text-primary/30 mx-auto" />
                     <p className="mt-2 text-sm text-muted-foreground">
-                      123 Tech Park, Silicon Valley<br />
-                      San Francisco, CA 94102
+                      Asrivo - Tech<br />
+                      Madurai - 625002<br />
+                      TamilNadu , India
                     </p>
                   </div>
                 </div>
@@ -304,8 +307,9 @@ export default function ContactPage() {
             <Button 
               size="lg" 
               className="mt-8 bg-primary-foreground text-primary hover:bg-primary-foreground/90"
+              asChild
             >
-              Schedule a Call
+              <Link href="/schedule">Schedule a Call</Link>
             </Button>
           </div>
         </div>
