@@ -199,57 +199,7 @@ export function HeroSection() {
         <div className="w-[2px] h-16 rounded-full bg-gradient-to-b from-primary to-transparent animate-bounce-slow" />
       </div>
 
-      <style jsx global>{`
-        .perspective-2500 { perspective: 2500px; }
-        .transform-style-3d { transform-style: preserve-3d; }
-        .rotate-x-60 { transform: rotateX(60deg); }
-        .rotate-z-45 { transform: rotateZ(-45deg); }
-        
-        /* FACE DEPTH CONFIGURATION */
-        .translate-z-12 { transform: translateZ(48px); }
-        .-translate-z-12 { transform: translateZ(-48px); }
-        .translate-x-12 { transform: translateX(48px); }
-        .-translate-x-12 { transform: translateX(-48px); }
-        .translate-y-12 { transform: translateY(48px); }
-        .-translate-y-12 { transform: translateY(-48px); }
 
-        @keyframes voxel-float {
-          0%, 100% { transform: translate3d(0, 0, 0); }
-          50% { transform: translate3d(0, 0, 80px); }
-        }
-        .animate-voxel-float {
-          animation: voxel-float linear infinite;
-        }
-
-        @keyframes float-light {
-          0%, 100% { transform: translateY(0px) rotate(0deg); }
-          50% { transform: translateY(-10px) rotate(2deg); }
-        }
-        .animate-float-light {
-          animation: float-light 8s ease-in-out infinite;
-        }
-
-        @keyframes text-shimmer {
-          0% { background-position: -200% center; }
-          100% { background-position: 200% center; }
-        }
-        .animate-text-shimmer {
-          background-size: 200% auto;
-          animation: text-shimmer 8s linear infinite;
-        }
-
-        @keyframes pulse-slow {
-          0%, 100% { opacity: 0.1; }
-          50% { opacity: 0.4; }
-        }
-        .animate-pulse-slow { animation: pulse-slow 4s ease-in-out infinite; }
-
-        @keyframes bounce-slow {
-          0%, 100% { transform: translateY(0); opacity: 0.8; }
-          50% { transform: translateY(20px); opacity: 0.2; }
-        }
-        .animate-bounce-slow { animation: bounce-slow 2.5s ease-in-out infinite; }
-      `}</style>
     </section>
   )
 }
