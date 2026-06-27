@@ -30,7 +30,7 @@ const contactInfo = [
     icon: Phone,
     title: "Phone Number",
     content: "+1 (234) 567-890",
-    link: "tel:+1234567890",
+    link: "tel:+1234567890" ,
   },
   {
     icon: Mail,
