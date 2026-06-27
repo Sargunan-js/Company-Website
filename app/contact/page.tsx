@@ -23,15 +23,14 @@ const contactInfo = [
   {
     icon: MapPin,
     title: "Office Address",
-    content: "Asrivo - Tech Park\n Madurai - 625002\n TamilNadu , India",
-    link: "https://www.google.com/maps/dir/9.949141,78.12767/9.9491417,78.1276668/@9.9491456,78.1270113,19z/data=!3m1!4b1!4m6!4m5!1m1!4e1!1m1!4e1!3e9?entry=ttu&g_ep=EgoyMDI2MDUxMS4wIKXMDSoASAFQAw%3D%3D",
-    
+    content: "123 Tech Park, Silicon Valley\nSan Francisco, CA 94102, USA",
+    link: "https://maps.google.com",
   },
   {
     icon: Phone,
     title: "Phone Number",
-    content: "+91 8122575337",
-    link: "tel:+918122575337",
+    content: "+1 (234) 567-890",
+    link: "tel:+1234567890",
   },
   {
     icon: Mail,
@@ -282,9 +281,8 @@ export default function ContactPage() {
                   <div className="text-center">
                     <MapPin className="h-12 w-12 text-primary/30 mx-auto" />
                     <p className="mt-2 text-sm text-muted-foreground">
-                      Asrivo - Tech<br />
-                      Madurai - 625002<br />
-                      TamilNadu , India
+                      123 Tech Park, Silicon Valley<br />
+                      San Francisco, CA 94102
                     </p>
                   </div>
                 </div>
